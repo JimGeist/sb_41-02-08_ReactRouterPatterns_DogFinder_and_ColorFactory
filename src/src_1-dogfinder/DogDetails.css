@@ -1,0 +1,11 @@
+.DogDetails-div-clear {
+    display: block;
+
+}.DogDetails-div {
+    float:left;
+}
+
+.DogDetails-nav {
+    font-size: 2.0rem;
+    font-weight: bold;
+}

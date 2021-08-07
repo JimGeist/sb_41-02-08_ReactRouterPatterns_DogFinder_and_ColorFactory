@@ -1,0 +1,12 @@
+.Color-div {
+    width: 90%;
+    height: 75vh;
+    border: 0.25rem solid #000;
+    border-radius: 1.0rem;
+}
+
+.Color-h1 {
+    border-radius: 0.25rem;
+    color: #CCC;
+    background-color: rgba(20, 20, 20, 0.5)
+}

@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# sb_41-02-08_ReactRouterPatterns_DogFinder_and_ColorFactory
+ 
+## Technology Stack
+- **Front-end**: ReactJS
+- **Back-end**: n/a
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment Details
 
-## Available Scripts
+Build two applicaitons -- a Dog Finder and a Color Factory -- that route to different components / functions based on the chosen item. 
 
-In the project directory, you can run:
+**Part 1: React Router Dog Finder**
 
-### `npm start`
+The purpose of Dog Finder was to make use of the `<Switch>` component in React Router as well as handle url parameters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Part 2: React Router Color Factory**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The purpose of Color Factory was to use React Router in slightly more difficult application since it involved retaining user input instead of using a static structure with values as with Dog Finder. 
 
-### `npm test`
+The Color Factory also made use of some browser `history` to handle the routing when a new color is added. The assignment called for a color preview page but instead of a new page, a div is displayed with the color for the background.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Both applications definitely require reorganization as there is too much business logic in `App`. The Color Factory would definitely benefit from component restructuring as well. Both applications have some styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Each application, **** and **** are in their own folder. There is no common `App` component that is called that offers a choice. 
+- The **Dog Finder** source is in folder `src_1-dogfinder`.
+- The **Color Factory** source is in folder `src_2-color`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+There were no component tests created for either Part 1 or Part 2.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Additional Details
 
-### `npm run eject`
+**Enhancements**
+- None.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Difficulties**
+- It seemed like a simple exercise. Stumbling areas is around the data destructuring. What I have not been able to nail down is whether the difficulty is with destructuring or if there was something missing elsewhere. A common one was using the destructured array from props and `.map()` generates an error because it is not on an iterable component. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

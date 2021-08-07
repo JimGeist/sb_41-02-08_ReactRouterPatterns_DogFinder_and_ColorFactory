@@ -1,0 +1,21 @@
+.Dogs-img {
+    width: 250px
+}
+
+.Dogs-div {
+    float: left;
+    margin-right: 1.0rem;
+    margin-bottom: 2.0rem;
+    
+}
+
+.Dogs-nav a {
+    border: 0.25rem solid #000;
+    border-radius: 0.5rem;
+}
+
+.Dogs-nav a.hover {
+    background-color: rgba(0, 128, 0, 0.5);
+    border: 0.25rem solid #008000;
+    border-radius: 0.5rem;
+}
